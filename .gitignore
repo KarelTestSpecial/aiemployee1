@@ -1,0 +1,17 @@
+# Systeem & Environment
+.env
+__pycache__/
+*.pyc
+venv/
+.vscode/
+
+# Data (We willen geen lokale databases in de cloud)
+*.db
+*.sqlite3
+
+# Logs & Output
+*.log
+my_dynamic_profile.txt
+
+# Training data (Optioneel: wil je dit backuppen? Zo niet, zet het hierbij)
+training_data.jsonl
